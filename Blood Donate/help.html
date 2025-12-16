@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City University</title>
+        <link rel="stylesheet" href="dHelp.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- header starts -->
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png">
+            </div>
+            <div class="blood_don">
+                <p>Blood Donate</p>
+            </div>
+        </header>
+
+        <section>
+            <!-- left part -->
+            <div class="left_part">
+                <div class="for_img">
+                    <div class="for_blur">
+                        <a href="donarReq.php">
+                            <div class="donate_btn">Donate</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="easy_line">
+                    <span>#</span>
+                    <p>Easy For You</p>
+                </div>
+
+                <!-- nav -->
+                <div class="nav_div">
+                    <div class="nav_bar"></div>
+                    <div class="nav_list">
+                        <ul>
+                            <a href="index.html"><li><p class="list">Home</p></li></a>
+                            <a href="donarReq.php"><li><p class="list">Register as a Donor</p></li></a>
+                            <a href="patReq.php"><li><p class="list">Request for Blood</p></li></a>
+                            <a href="donList.php"><li><p class="list">Donor List</p></li></a>
+                            <a href="patList.php"><li><p class="list">Patient List</p></li></a>
+                            <a href="contact.html"><li><p class="list">Contact Us</p></li></a>
+                            <a href="help.html"><li><p class="list active">Donation Help?</p></li></a>
+                            <a href="admin_login.php"><li><p class="list">Admin Process</p></li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- right part -->
+
+            <div class="right_part">
+                <div class="headerAndshort_intro">
+                    <div class="header">
+                        <p>"Donate Blood, Save Life."</p>
+                    </div>
+                    <div class="short_intro">Your small act can save a life. Learn how to donate, request blood, or support our mission.</div>
+                    <i class="fa-solid fa-notes-medical"></i>
+                </div>
+                <div class="h_y_c_h">
+                    <h2><i class="fa-solid fa-circle-question"></i>How you can help?</h2>
+                    <div class="hhList">
+                        <p><i class="fa-solid fa-bolt"></i><span>Donate Blood</span><i class="fa-solid fa-caret-right"></i>Explain who can donate, basic requirements, and how to register.</p>
+                        <p><i class="fa-solid fa-bolt"></i><span>Volunteer</span><i class="fa-solid fa-caret-right"></i>Help during blood drives, events, or awareness campaigns.</p>
+                        <p><i class="fa-solid fa-bolt"></i><span>Financial Support</span><i class="fa-solid fa-caret-right"></i>Donate money to support blood collection, storage, or awareness programs (<i id="bnb">add Bkash/Nagad/Bank
+                        info</i>).</p>
+                        <p><i class="fa-solid fa-bolt"></i><span>Spread Awareness</span><i class="fa-solid fa-caret-right"></i>Share our website or social media posts to reach more donors.</p>
+                    </div>
+                </div>
+                <div class="donor_guidline">
+                    <h2><i class="fa-solid fa-signs-post"></i>Donor Guidlines</h2>
+                    <div class="ques_div">
+                        <p><i class="fa-solid fa-bolt"></i>Who is eligible to donate blood?</p>
+                        <div class="ans">
+                            <h3 class="BER"><i class="fa-regular fa-circle-check"></i>Basic Eligibility Requirements</h3>
+                            <ol>
+                                <li>Age:
+                                    <ul type="disc">
+                                        <li>Usually 18 to 60 years old (some places allow 17 with parental consent).</li>
+                                    </ul>
+                                </li>
+                                <li>Weight:
+                                    <ul type="disc">
+                                        <li>Must weigh at least 50 kg (110 lbs).</li>
+                                    </ul>
+                                </li>
+                                <li>Health Condition:
+                                    <ul type="disc">
+                                        <li>Must be healthy — no fever, cold, infection, or major illness at the time of donation.</li>
+                                    </ul>
+                                </li>
+                                <li>Hemoglobin Level:
+                                    <ul type="disc">
+                                        <li>Should be at least 12.5 g/dL (checked before donation).</li>
+                                    </ul>
+                                </li>
+                                <li>Time Gap Between Donations:
+                                    <ul type="disc">
+                                        <li>Men: Every 3 months</li>
+                                        <li>Women: Every 4 months</li>
+                                    </ul>
+                                </li>
+                                <li>Sleep & Food:
+                                    <ul type="disc">
+                                        <li>Must have enough sleep (6+ hours) the night before.</li>
+                                        <li>Eat a light meal and drink water before donating.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <h3 class="you_cannot"><i class="fa-solid fa-ban"></i>You Cannot Donate Blood If You:</h3>
+                            <ul type="disc" class="you_cannot_ul">
+                                <li>Have a cold, flu, or fever.</li>
+                                <li>Had major surgery within the last 6 months.</li>
+                                <li>Are pregnant or recently gave birth.</li>
+                                <li>Have diabetes, heart disease, or high blood pressure (not controlled).</li>
+                                <li>Have used drugs or alcohol recently.</li>
+                                <li>Have Hepatitis, HIV, or any infectious disease.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ques_div">
+                        <p><i class="fa-solid fa-bolt"></i>Blood Type Match Guide</p>
+                        <div class="ans">
+                            <img src="img/images.png">
+                        </div>
+                    </div>
+                    <div class="ques_div">
+                        <p><i class="fa-solid fa-bolt"></i>What to do before and after donation?</p>
+                        <div class="ans">
+                            <h3><i class="fa-solid fa-droplet"></i>Before Donation</h3>
+                            <ol>
+                                <li>Get enough sleep <span>— at least 6–8 hours the night before.</span></li>
+                                <li>Eat a healthy meal <span>— don’t donate on an empty stomach.</span></li>
+                                <li>Drink plenty of water <span>— stay well-hydrated before arriving.</span></li>
+                                <li>Avoid alcohol or smoking <span>— for at least 24 hours before donating.</span></li>
+                                <li>Bring an ID card <span>— and any medical information if needed.</span></li>
+                                <li>Wear comfortable clothes <span>— especially sleeves that can be rolled up easily.</span></li>
+                                <li>Stay calm and relaxed <span>— don’t stress; the process is safe and quick.</span></li>
+                            </ol>
+                            <h3 class="after_don"><i class="fa-solid fa-heart"></i>After Donation</h3>
+                            <ol>
+                                <li>Rest for 10–15 minutes <span>— sit or lie down after donating.</span></li>
+                                <li>Drink fluids <span>— water or juice helps replace lost fluids.</span></li>
+                                <li>Eat a light snack <span>— cookies or fruit are ideal.</span></li>
+                                <li>Avoid heavy exercise <span>— rest your arm and body for the next 24 hours.</span></li>
+                                <li>Keep the bandage on <span>— for a few hours to avoid bleeding.</span></li>
+                                <li>If you feel dizzy or weak <span>— lie down and raise your legs slightly.</span></li>
+                                <li>Thank yourself! <span>— you just helped save a life.</span></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="ques_div">
+                        <p><i class="fa-solid fa-bolt"></i>How long the process takes?</p>
+                        <div class="ans">
+                            <h3><i class="fa-solid fa-clock"></i>Step-by-Step Time Guide</h3>
+                            <ol>
+                                <li>Registration (5–10 minutes)
+                                    <ul type="disc">
+                                        <li>Fill out a short form and show your ID.</li>
+                                    </ul>
+                                </li>
+                                <li>Health Check (10–15 minutes)
+                                    <ul type="disc">
+                                        <li>A quick medical screening: blood pressure, hemoglobin test, temperature, and questions about your health.</li>
+                                    </ul>
+                                </li>
+                                <li>Donation (8–10 minutes)
+                                    <ul type="disc">
+                                        <li>The actual time it takes for your blood to be collected (usually about 450 ml).</li>
+                                    </ul>
+                                </li>
+                                <li>Rest & Refreshment (10–15 minutes)
+                                    <ul type="disc">
+                                        <li>Sit, relax, and have some water or juice before leaving.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <p><i class="fa-solid fa-square-check"></i>Total Time: <span>Around</span> 45–60 minutes</p>
+                            <p><i class="fa-solid fa-droplet"></i>Actual blood draw: <span>Only</span> 8–10 minutes</p>
+                        </div>
+                    </div>
+                    <div class="ques_div">
+                        <p><i class="fa-solid fa-bolt"></i>What to do if any side effects occur?</p>
+                        <div class="ans">
+                            <h3><i class="fa-solid fa-triangle-exclamation"></i>Common, Mild Side Effects (Normal)</h3>
+                            <p id="youMight">You might feel:</p>
+                            <ul type="disc">
+                                <li>Lightheaded or dizzy</li>
+                                <li>Tired or weak</li>
+                                <li>Minor bleeding or bruising at the needle site</li>
+                            </ul>
+                            <p class="whatTodo"><i class="fa-solid fa-square-check"></i>What to Do:</p>
+                            <ol>
+                                <li>Lie down or sit with your head between your knees until you feel better.</li>
+                                <li>Drink plenty of fluids — water or juice helps you recover faster.</li>
+                                <li>Eat something sweet or salty if you feel faint.</li>
+                                <li>Keep the bandage on for at least 3–4 hours.</li>
+                                <li>Avoid lifting heavy objects or doing intense exercise for 24 hours.</li>
+                                <li>Get proper rest — your body will replace the donated blood within 24–48 hours.</li>
+                            </ol>
+                            <h3 class="serious_sym"><i class="fa-solid fa-truck-medical"></i>If You Notice Any Serious Symptoms</h3>
+                            <p id="suchAs">Such as:</p>
+                            <ul type="disc">
+                                <li>Continuous bleeding</li>
+                                <li>Swelling or severe pain at the needle site</li>
+                                <li>Fever, nausea, or rash</li>
+                                <li>Fainting that doesn’t go away</li>
+                            </ul>
+                            <p class="then"><i class="fa-solid fa-hand-point-right"></i>Then:</p>
+                            <ol>
+                                <li>Contact the donation center or your doctor immediately.</li>
+                                <li>Call emergency services if it feels serious.</li>
+                            <ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="need_blood">
+                    <h2><i class="fa-solid fa-magnifying-glass"></i>Need Blood? (Request Section)</h2>
+                    <div class="hhList">
+                        <p><i class="fa-solid fa-bolt"></i><span>Simple online request form for those who need blood</span></p>
+                        <p><i class="fa-solid fa-bolt"></i><span>Required info: name, blood group, hospital, location, contact number</span></p>
+                        <p><i class="fa-solid fa-bolt"></i><span>Emergency contact</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right part end -->
+        </section>
+
+        <!-- footer starts -->
+        <footer>
+            <div class="footer_divs">
+                <div class="footer_header">About Us</div>
+                <div class="footer_details">This is blood donation website, for City University student's and teacher's.<br>It's
+                    created by Mohaimenul Hoque Alok from 67th batch and idea was given by Raihan Chowdhury form 67th batch. We
+                    created this for blood donation of our University.<br>It's from City University. For our students and
+                    teachers user.</div>
+            </div>
+            <div class="footer_divs">
+                <div class="footer_header">Why this?</div>
+                <div class="footer_details">This is a perfect web for our city university blood donation. With this website you
+                    can easily find a donor. And you can donate easily. What you need? A donor? or a receiver? too easy with this
+                    website for city university students.</div>
+            </div>
+            <div class="footer_divs">
+                <div class="footer_header">Involved</div>
+                <div class="footer_details">
+                    <p>Created by <a href="https://www.facebook.com/mohaimenul.hoque.549"><span>@MH Alok</span></a></span></p>
+                    <p>Mobile Phone : <span>+880 1947-151532</span></p>
+                    <p>Mail: <span>mohaimenulhoquealok@gamil.com</span></p>
+                    <div class="footer_img_container">
+                        <div class="footer_img"><img src="img/logo1.png" height="100%" width="100%"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>

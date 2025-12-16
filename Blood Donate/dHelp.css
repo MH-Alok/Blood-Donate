@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+header {
+    height: 55px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    box-shadow: 10px 10px 15px rgba(145, 144, 144, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/** logo part **/
+.logo {
+    height: 55px;
+    width: 100px;
+}
+
+.logo img {
+    height: 55px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** header blood donate **/
+.blood_don {
+    height: 80px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blood_don p {
+    font-size: 22px;
+    color: #cd1e25;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+/** section part starts **/
+
+section {
+    height: 160vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+/** left part **/
+.left_part {
+    height: 160vh;
+    width: 20%;
+    box-shadow: 5px 0px 10px rgba(145, 144, 144, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+}
+
+.for_img {
+    height: 120px;
+    width: 100%;
+    background-image: url("img/human-blood1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.for_blur {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** for donate button **/
+
+.donate_btn {
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgba(139, 18, 49, 0.5);
+    border-radius: 5px;
+    color: white;
+    background-color: #8b1231;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgba(139, 18, 48, 0.5);
+    transition: 0.5s ease;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate_btn:hover {
+    color: #8b1231;
+    background-color: white;
+    box-shadow: 0 0 25px #8b1231;
+    filter: grayscale(0.1);
+    transform: scale3d(1.03);
+}
+
+.easy_line {
+    height: 40px;
+    width: 100%;
+    background-color: #fe9a9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.easy_line span {
+    color: #8b1231;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.easy_line p {
+    color: white;
+    padding-left: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/** nav div **/
+
+.nav_div {
+    height: 55%;
+    width: 100%;
+    position: relative;
+}
+
+.nav_bar {
+    height: 30px;
+    width: 40px;
+    display: none;
+}
+
+.nav_list {
+    height: 200px;
+    width: 100%;
+}
+
+.nav_list ul {
+    padding-top: 30px;
+}
+
+.nav_list ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_list ul li {
+    height: 40px;
+    width: calc(100%-30px);
+    padding-left: 30px;
+}
+
+.list {
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.4s ease;
+    border-bottom: 3px solid transparent;
+
+}
+
+.list:hover {
+    color: #8b1231;
+    border-bottom: 3px solid #8b1231;
+}
+.active {
+    color: #8b1231;
+    border-bottom: 3px solid #8b1231;
+}
+
+/** right part **/
+
+.right_part {
+    min-height: 160vh;
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.headerAndshort_intro {
+    height: fit-content;
+    width: calc(95% - 10px);
+    padding-top: 20px;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header p {
+    background-color: rgba(0, 0, 0, 0.04);
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    color: #8b1231;
+}
+
+.short_intro {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.headerAndshort_intro i {
+    font-size: 40px;
+    padding: 20px 0 10px;
+    color: #009879;
+}
+
+.h_y_c_h {
+    height: 220px;
+    width: calc(95% - 10px);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(145, 144, 144, 0.4);
+}
+
+.h_y_c_h h2 {
+    padding: 20px 0px;
+    color: #8b1231;
+    display: flex;
+    align-items: center;
+}
+
+.h_y_c_h h2 i {
+    padding-right: 4px;
+    font-size: 21px;
+}
+
+#bnb {
+    padding: 0;
+}
+
+.hhList p {
+    font-size: 16px;
+    padding: 0px 0px 15px;
+}
+
+.hhList p span {
+    font-weight: 600;
+}
+
+.hhList p i {
+    font-size: 14px;
+    color: #009879;
+    padding-right: 4px;
+}
+
+.donor_guidline {
+    height: fit-content;
+    width: calc(95% - 10px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(145, 144, 144, 0.4);
+}
+
+.donor_guidline h2 {
+    padding: 20px 0px;
+    color: #8b1231;
+    display: flex;
+    align-items: center;
+}
+
+.donor_guidline h2 i {
+    padding-right: 4px;
+    font-size: 21px;
+}
+
+.ques_div {
+    height: fit-content;
+    width: 100%;
+}
+
+.ques_div p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.ques_div p i {
+    color: #009879;
+    padding-right: 4px;
+    font-size: 14px;
+}
+
+.ans {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.BER {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.fa-circle-check {
+    font-size: 16px;
+    color: rgb(52, 199, 89);
+    padding-right: 4px;
+}
+
+.ans ol {
+    padding: 10px 20px 5px;
+    width: fit-content;
+}
+
+.ans ol li {
+    font-weight: 600;
+    padding: 5px;
+}
+
+.ans ul {
+    padding-left: 20px;
+}
+
+.ans ul li {
+    font-weight: 500;
+    padding: 5px;
+}
+
+.fa-ban {
+    color: red;
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+.fa-message {
+    color: #8b1231;
+    font-size: 20px;
+}
+
+.you_cannot {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.you_cannot_ul {
+    width: fit-content;
+    padding-bottom: 15px;
+}
+
+.ans img {
+    height: 500px;
+    width: 500px;
+}
+
+.fa-droplet,
+.fa-heart {
+    color: rgb(220, 20, 60);
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+.after_don {
+    padding-top: 20px;
+}
+
+.ans ol li span {
+    font-weight: 500;
+}
+
+.fa-clock {
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+.ans p .fa-droplet {
+    color: rgb(220, 20, 60);
+}
+
+.ans p .fa-square-check {
+    color: rgb(52, 199, 89);
+}
+
+.ans p span {
+    font-weight: 500;
+}
+
+.ans h3 .fa-triangle-exclamation {
+    color: rgb(255, 204, 0);
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+#youMight {
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.whatTodo {
+    padding-top: 15px;
+}
+
+.fa-truck-medical {
+    color: #009879;
+    font-size: 16px;
+    padding-right: 4px;
+}
+
+.serious_sym {
+    padding-top: 20px;
+}
+
+#suchAs {
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.ans p .fa-hand-point-right {
+    color: rgb(255, 204, 0);
+}
+
+.then {
+    padding-top: 20px;
+}
+
+.need_blood {
+    height: fit-content;
+    width: calc(95% - 10px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.need_blood h2 {
+    padding: 20px 0px;
+    color: #8b1231;
+    display: flex;
+    align-items: center;
+}
+
+.need_blood h2 i {
+    padding-right: 4px;
+    font-size: 21px;
+}
+
+/** footer starts **/
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(201, 201, 201, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer_divs {
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(201, 201, 201);
+}
+
+.footer_header {
+    height: calc(25% - 20px);
+    width: calc(100% - 20px);
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.footer_details {
+    height: calc(75% - 10px);
+    width: calc(100% - 20px);
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.footer_details p {
+    padding-bottom: 5px;
+}
+
+.footer_details p span {
+    color: darkred;
+}
+
+.footer_img_container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+
+.footer_img {
+    height: 90%;
+    width: 30%;
+    padding-right: 30px;
+}
